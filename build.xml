@@ -47,9 +47,11 @@
 		</delete>
 	</target>
 
+	<!--
 	<target name="run" depends="compile">
 		<java classname="com.example.antdemo.Main" classpathref="classpath" />
 	</target>
+	-->
 
 	<target name="testcompile" depends="compile">
 		<javac srcdir="${test}" destdir="${testbin}" classpathref="classpath" includeantruntime="false">
